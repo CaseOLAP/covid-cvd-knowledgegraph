@@ -1,0 +1,162 @@
+,name,category,target
+0,heparin,Anticoagulants,"['P01008', 'P00742', 'P16109', 'P22455', 'P08620', 'O95750', 'P11362', 'P05230', 'P21802', 'P09038', 'P02776', 'P14210']"
+1,warfarin,Anticoagulants,"['Q9BQB6', 'O75469']"
+2,streptokinase,Thrombolytics,"['P00747', 'P25116']"
+3,urokinase,Thrombolytics,"['P00747', 'Q03405', 'P05121', 'P05120', 'P05154', 'P98164', 'Q9Y5Y6', 'P14543']"
+4,tpa,Thrombolytics,"['P00747', 'P02671', 'Q03405', 'P05121']"
+5,apsac,Thrombolytics,"['P00747', 'P02671', 'P05121']"
+6,dabigatran,Thrombolytics,0.0
+7,rivaroxaban,Thrombolytics,['P00742']
+8,apixaban,Thrombolytics,['P00742']
+9,edoxaban,Thrombolytics,['P00742']
+10,clopidogrel,Antiplatelets,['Q9H244']
+11,ticlopidine,Antiplatelets,['Q9H244']
+12,abciximab,Antiplatelets,"['P05106', 'P08514', 'P12318', 'P31994', 'P04004']"
+13,cangrelor,Antiplatelets,['Q9H244']
+14,prasugrel,Antiplatelets,['Q9H244']
+15,ticagrelor,Antiplatelets,['Q9H244']
+16,aspirin,Antiplatelets,"['P23219', 'P35354', 'Q04828', 'Q13131', 'P54646', 'Q9Y478', 'O43741', 'P54619', 'Q9UGJ0', 'Q9UGI9', 'P25101', 'P04637', 'P11021', 'P51812', 'P25963', 'P98066', 'P29466', 'P42574', 'O14920', 'P28482', 'Q8TD08', 'P27361', 'P31152', 'Q16659', 'Q13164', 'P24385', 'P01106', 'P12004', 'N/A']"
+17,triflusal,Antiplatelets,"['P23219', 'P19838', 'P35228', 'Q9Y233']"
+18,cilostazol,Antiplatelets,['Q14432']
+19,vorapaxar,Antiplatelets,['P25116']
+20,eptifibatide,Antiplatelets,['P05106']
+21,tirofiban,Antiplatelets,"['P08514', 'P05106']"
+22,dipyridamole,Antiplatelets,"['Q9Y233', 'P00813', 'O76074', 'P27815', 'P53805', 'P02763']"
+23,simvastatin,HMG-CoA Reductase inhibitors (Statins),"['P04035', 'P20701', 'Q92769']"
+24,lovastatin,HMG-CoA Reductase inhibitors (Statins),"['P04035', 'P20701', 'Q92769']"
+25,pravastatin,HMG-CoA Reductase inhibitors (Statins),"['P04035', 'Q92769']"
+26,atorvastatin,HMG-CoA Reductase inhibitors (Statins),"['P04035', 'P27487', 'P35869', 'Q92769', 'Q14994']"
+27,fluvastatin,HMG-CoA Reductase inhibitors (Statins),"['P04035', 'Q92769']"
+28,rosuvastatin,HMG-CoA Reductase inhibitors (Statins),"['P04035', 'P20701']"
+29,gemfibrozil,Fibrates,"['Q07869', 'Q9Y6L6', 'Q8TCC7', 'O949565', 'Q9NPD5']"
+30,clofibrate,Fibrates,['Q07869']
+31,bezafibrate,Fibrates,"['Q07869', 'Q03181', 'P37231', 'O75469', 'P19793', 'P28702', 'P48443']"
+32,fenofibrate,Fibrates,"['Q07869', 'Q9NPA2', 'O75469']"
+33,ciprofibrate,Fibrates,['Q07869']
+34,cholestyramine,Bile Acid Resins,0.0
+35,colestipol,Bile Acid Resins,0.0
+36,colesevelam,Bile Acid Resins,0.0
+37,ezetimibe,Cholesteron Absorption Blocker,"['Q9UHC9', 'P35610', 'P15144']"
+38,Insulin aspart (NovoLog),Insulin,"['P06213', 'P08069']"
+39,Insulin glulisine (Apidra),Insulin,"['P06213', 'P08069']"
+40,Insulin lispro (Humalog),Insulin,"['P06213', 'P08069']"
+41,"Insulin regular (Humulin R, Novolin R)",Insulin,"['P06213', 'P08069', 'P06400', 'P16870']"
+42,"NPH, Neutral protamine Hagedorn",Insulin,"['P06213', 'P08069', 'P06400', 'P16870']"
+43,Insulin glargine (Lantus/Toujeo),Insulin,"['P06213', 'P08069']"
+44,Insulin detemir (Levemir),Insulin,"['P06213', 'P08069']"
+45,Insulin,Insulin,0.0
+46,Tolbutamide (orinase),Sulfonylureas,"['Q09428', 'P48048']"
+47,Chlorpropamide (diabenese),Sulfonylureas,['Q09428']
+48,Glyburide (glynase),Sulfonylureas,"['Q09428', 'Q14654', 'O60706', 'O95342', 'O95477', 'Q14654', 'Q15842', 'P50416', 'P13569', 'Q8TD43']"
+49,Glipizide (glucotrol),Sulfonylureas,"['Q09428', 'P37231']"
+50,Metformin,Metformin,"['Q9Y478', 'Q16134', 'P21695']"
+51,Pioglitazone (Actos),Thiazolidinediones,"['P37231', 'P27338']"
+52,Rosiglitazone (Avandia),Thiazolidinediones,"['P37231', 'O60488', 'Q07869', 'Q03181', 'P19793', 'P28702', 'P48443']"
+53,Lobeglitazone,Thiazolidinediones,['P37231']
+54,Acarbose,Alpha-glucosidase Inhibitors,"['O43451', 'P04746', 'P10253', 'P14410']"
+55,Miglitol,Alpha-glucosidase Inhibitors,"['O43451', 'P10253', 'Q14697', 'Q8TET4']"
+56,Exenatide,Glucagon-like peptide-1 blockers,['P43220']
+57,Sitagliptin,Glucagon-like peptide-1 blockers,['P27487']
+58,Canagliflozin,Glucagon-like peptide-1 blockers,['P31639']
+59,propranolol,Beta Blockers,"['P08588', 'P07550', 'P13945', 'P08908', 'P28222']"
+60,bucindolol,Beta Blockers,0.0
+61,carvedilol,Beta Blockers,"['P08588', 'P35348', 'O95298', 'P07550', 'P15692', 'P16860', 'P17302', 'Q12809', 'P19320', 'P25100', 'P35368', 'P18825', 'P18089', 'P08913', 'P16581', 'Q16665', 'P48050', 'P63252', 'P35348', 'P35368', 'P25100']"
+62,carteolol,Beta Blockers,"['P07550', 'P08588']"
+63,labetalol,Beta Blockers,"['P08588', 'P07550', 'P35348', 'P35368', 'P25100']"
+64,oxprenolol,Beta Blockers,"['P08588', 'P07550', 'P13945']"
+65,penbutolol,Beta Blockers,"['P08588', 'P07550', 'P08908', 'P28222']"
+66,pindolol,Beta Blockers,"['P08588', 'P07550', 'P08908', 'P28222', 'P13945']"
+67,sotalol,Beta Blockers,"['Q12809', 'P08588', 'P07550']"
+68,timolol,Beta Blockers,"['P08588', 'P07550', 'P00720']"
+69,acebutolol,Beta Blockers,"['P08588', 'P07550']"
+70,atenolol,Beta Blockers,"['P08588', 'P07550']"
+71,betaxolol,Beta Blockers,"['P08588', 'P07550']"
+72,bisoprolol,Beta Blockers,"['P08588', 'P07550']"
+73,celiprolol,Beta Blockers,"['P08588', 'P07550', 'P13945', 'P08913', 'P18089', 'P18825']"
+74,metoprolol,Beta Blockers,"['P08588', 'P07550']"
+75,nebivolol,Beta Blockers,"['P08588', 'P07550', 'P13945']"
+76,esmolol,Beta Blockers,['P08588']
+77,furosemide,Diuretics,"['Q13621', 'P00918', 'Q9HC97']"
+78,torsemide,Diuretics,"['Q13621', 'P55011']"
+79,bumetanide,Diuretics,"['Q13621', 'P55011', 'Q9UP95', 'Q9H2X9', 'P13569']"
+80,ethacrynic acid,Diuretics,"['P05023', 'Q13621', 'Q9UJU2', 'P09211']"
+81,metolazone,Diuretics,['P55017']
+82,eplerenone,Diuretics,['P08235']
+83,spironolactone,Diuretics,"['P08235', 'P10275', 'P06401', 'P04150', 'P19099', 'P05093', 'P18405', 'P31213', 'Q9H8P0', 'P04278', 'Q06432', 'Q9Y698', 'O60359', 'Q9UBN1', 'Q9UF02', 'Q9BXT2', 'P62955', 'Q8WXS5', 'P54289', 'Q9NY47', 'Q8IZS8', 'Q7Z3S7', 'Q13936', 'Q01668', 'O60840', 'Q13698', 'Q02641', 'Q08289', 'P54284', 'O00305', 'Q00975', 'O00555', 'Q15878', 'O43497', 'O95180', 'Q9P0X4', 'O75469']"
+84,canrenone,Diuretics,0.0
+85,triamterene,Diuretics,"['P51170', 'P37088', 'P51168', 'P51172']"
+86,amiloride,Diuretics,"['P37088', 'P51168', 'P51170', 'P51172', 'P19801', 'Q16515', 'P78348', 'P19634', 'P00749']"
+87,amlodipine,Diuretics,"['Q13936', 'Q00975', 'Q02641', 'Q8IZS8', 'P00915', 'P17405', 'Q9P0X4', 'A0A024R8I1', 'Q00975']"
+88,verapamil,Diuretics,"['Q13936', 'Q00975', 'O00555', 'Q14654', 'O43497', 'O95180', 'Q12809', 'P31645', 'P35348', 'P35368', 'P25100']"
+89,felodipine,Diuretics,"['Q13936', 'P54289', 'Q08289', 'Q01668', 'Q13698', 'O95180', 'Q9NY47', 'P0DP23', 'Q01064', 'P54750', 'P08235', 'P02585', 'P63316']"
+90,isradipine,Diuretics,"['Q13936', 'P54289', 'Q08289', 'O95180', 'Q9NY47', 'Q01668', 'Q13698']"
+91,nicardipine,Diuretics,"['Q13936', 'Q08289', 'P54289', 'Q01668', 'P54750', 'Q01064', 'P35348', 'P35368', 'P25100', 'P11229', 'P08172', 'P20309', 'P08173', 'P08912', 'P0DP23']"
+92,nifedipine,Calcium Antagonist,"['Q13936', 'O75469', 'P0DP23', 'Q01668', 'Q13698', 'Q08289', 'Q9UK17', 'O43497', 'O95180', 'Q9P0X4']"
+93,diltiazem,Calcium Antagonist,"['Q06432', 'Q13936']"
+94,nisoldipine,Calcium Antagonist,"['Q13936', 'P54289', 'Q08289', 'Q01668', 'Q13698']"
+95,captopril,ACE Inhibitors,"['P12821', 'P08253', 'P14780', 'P09960', 'P46663']"
+96,lisinopril,ACE Inhibitors,"['P12821', 'P00797']"
+97,enalapril,ACE Inhibitors,['P12821']
+98,benazepril,ACE Inhibitors,['P12821']
+99,fosinopril,ACE Inhibitors,['P12821']
+100,ramipril,ACE Inhibitors,"['P12821', 'P46663']"
+101,quinapril,ACE Inhibitors,['P12821']
+102,perindopril,ACE Inhibitors,"['P12821', 'Q6FHJ7']"
+103,digoxin,Inotropes,['P05023']
+104,amiodarone,Inotropes,"['Q12809', 'Q9H252', 'Q9NS40', 'P08588', 'P07550', 'P13945', 'Q9P0X4', 'Q13936', 'Q01668', 'O60840', 'Q13698', 'Q02641', 'Q08289', 'P54284', 'O00305', 'P10827', 'P10828', 'P37231', 'Q07869', 'Q86YN6']"
+105,berberine,Inotropes,"['P0A0N5', 'O15392']"
+106,dopamine,Inotropes,"['P14416', 'P21728', 'P21918', 'P35462', 'P21917', 'Q01959', 'P09172', 'P08908', 'P34969', 'P21728', 'P21918', 'P23975', 'P31645', 'P46098', 'O95264', 'P00441', 'Q05940']"
+107,dobutamine,Inotropes,"['P08588', 'P07550', 'P35348', 'P35368', 'P25100', 'P03372']"
+108,dopexamine,Inotropes,0.0
+109,epinephrine,Inotropes,"['P35348', 'P35368', 'P08588', 'P07550', 'P08913', 'P25100', 'P09172', 'P01375']"
+110,isoprenaline,Inotropes,"['P08588', 'P07550', 'P13945', 'P28482', 'P27986', 'O00459', 'Q92569', 'Q4ZHU6', 'P00441']"
+111,norepinephrine,Inotropes,"['P35348', 'P35368', 'P25100', 'P08913', 'P18089', 'P18825', 'P08588', 'P07550', 'P13945', 'P00439', 'Q05940', 'P54219']"
+112,enoximone,Phosphodiesterase Inhbitors,['Q14432']
+113,milrinone,Phosphodiesterase Inhbitors,['Q14433']
+114,amrinone,Phosphodiesterase Inhbitors,"['Q14432', 'P01375', 'Q13370', 'P28482', 'P27815', 'Q07343', 'Q08493', 'Q08499', 'N/A']"
+115,theophylline,Phosphodiesterase Inhbitors,"['P30542', 'P29274', 'P29275', 'Q07343', 'O76074', 'P27815', 'Q14432', 'Q92769', 'Q99829', 'Q8TCT9', 'Q15155', 'P09874', 'Q7Z5B4', 'O9Y4R7']"
+116,nitroglycerin,Vasodilators,['P16066']
+117,isosorbide dinitrate,Vasodilators,['P16067']
+118,hydralazine,Vasodilators,"['Q16853', 'P13674', 'Q16665']"
+119,nitric oxide,Vasodilators,"['P33402', 'P04731', 'P14902']"
+120,sildenafil,Vasodilators,"['O76074', 'P18545', 'Q13956']"
+121,tadalafil,Vasodilators,"['O76074', '9HCR9']"
+122,bosentan,Vasodilators,"['P25101', 'P24530']"
+123,minoxidil,Vasodilators,"['P48048', 'P23219', 'P00797']"
+124,nitroprusside,Vasodilators,['P16066']
+125,losartan,Angiotensin II Antagonists,['P30556']
+126,valsartan,Angiotensin II Antagonists,['P30556']
+127,candesartan,Angiotensin II Antagonists,['P30556']
+128,telmisartan,Angiotensin II Antagonists,"['P30556', 'P37231']"
+129,fimasartan,Angiotensin II Antagonists,['P30556']
+130,olmesartan,Angiotensin II Antagonists,['P30556']
+131,irbesartan,Angiotensin II Antagonists,"['P30556', 'P05412']"
+132,conivaptan,Vasopressin Antagonists,"['P37288', 'P30518']"
+133,relcovaptan,Vasopressin Antagonists,"['P30559', 'P37288']"
+134,nelivaptan,Vasopressin Antagonists,0.0
+135,lixivaptan,Vasopressin Antagonists,0.0
+136,tolvaptan,Vasopressin Antagonists,"['P30518', 'P37288']"
+137,quinidine,Na Channel Blockers,"['Q14525', 'P26358', 'Q12809']"
+138,ajmaline,Na Channel Blockers,['Q14524']
+139,procainamide,Na Channel Blockers,"['Q14525', 'O00180', 'Q9Y257', 'Q12809', 'P35348', 'P35368', 'P25100']"
+140,disopyramide,Na Channel Blockers,"['Q14524', 'P11229', 'P08172', 'P20309', 'Q9NZV8', 'Q9UK17', 'Q12809', 'P19652']"
+141,lidocaine,Na Channel Blockers,"['Q9Y5Y9', 'Q15858', 'Q14524', 'P00533', 'P35499', 'P02763', 'P19652']"
+142,phenytoin,Na Channel Blockers,"['Q14524', 'P35498', 'O75469', 'Q07699', 'Q9NY46', 'Q12809', 'Q13936', 'Q01668', 'O60840', 'Q13698', 'Q02641', 'Q08289', 'P54284', 'O00305', 'O00555', 'Q99250', 'Q9UQD0', 'P14867', 'P47869', 'P34903', 'P48169', 'P31644', 'Q16445', 'P18505', 'P47870', 'P28472', 'O14764', 'P78334', 'Q8N1C3', 'P18507', 'Q99928', 'O00591', 'Q9UN88']"
+143,mexiletine,Na Channel Blockers,"['Q14524', 'P35869']"
+144,tocainide,Na Channel Blockers,['Q14524']
+145,encainide,Na Channel Blockers,"['Q14524', 'P35499', 'Q12809', 'Q92736']"
+146,flecainide,Na Channel Blockers,"['Q14524', 'P35499', 'Q12809', 'Q92737']"
+147,propafenone,Na Channel Blockers,"['Q14524', 'Q12809', 'P08588', 'P07550']"
+148,moricizine,Na Channel Blockers,['Q14524']
+149,amiodarone,Potassium Channel Blockers,"['Q12809', 'Q9H252', 'Q9NS40', 'P08588', 'P07550', 'P13945', 'Q9P0X4', 'Q13936', 'Q01668', 'O60840', 'Q13698', 'Q02641', 'Q08289', 'P54284', 'O00305', 'O00555', 'P10827 ', 'P10828', 'P37231', 'Q07869', 'Q86YN6']"
+150,sotalol,Potassium Channel Blockers,"['Q12809', 'P08588', 'P07550']"
+151,ibutilide,Potassium Channel Blockers,"['Q13936', 'Q02641', 'Q12809', 'P54289', 'Q06432', 'O00180', 'Q9Y257', 'Q9H252', 'Q9NS40', 'Q14654']"
+152,dofetilide,Potassium Channel Blockers,"['Q12809', 'O95069', 'Q14500']"
+153,dronedarone,Potassium Channel Blockers,"['P35348', 'P35368', 'P25100', 'P08913', 'P18089', 'P18825', 'P08588', 'Q12809', 'Q13936', 'Q01668', 'O60840', 'Q13698', 'Q02641', 'Q08289', 'P54284', 'O00305', 'O95069', 'Q14525', 'P48549', 'P51787', 'Q14500', 'Q9UNX9', 'P63252', 'P48050', 'P32418', 'Q9UK17', 'P10827']"
+154,vernakalant,Potassium Channel Blockers,"['Q14524', 'P22460', 'Q9UK17', 'Q12809']"
+155,verapamil,Calcium Channel Blockers,"['Q13936', 'Q00975', 'O00555', 'Q14654', 'O43497', 'O95180', 'Q12809', 'P31645', 'P35348', 'P35368', 'P25100']"
+156,diltiazem,Calcium Channel Blockers,"['Q06432', 'Q13936']"
+157,adenosine,Other Anti Arrhythmics,"['P29274', 'P29275', 'P0DMS8', 'P30542']"
+158,digoxin,Other Anti Arrhythmics,['P05023']
+159,magnesium sulfate,Other Anti Arrhythmics,"['Q13936', 'Q01668', 'O60840', 'Q13698', 'Q02641', 'Q08289', 'P54284', 'O00305', 'O00555']"
+160,atropine,Other Anti Arrhythmics,"['P11229', 'P08172', 'P20309', 'P08173', 'P08912', 'P23415', 'P43681', 'P17787']"
