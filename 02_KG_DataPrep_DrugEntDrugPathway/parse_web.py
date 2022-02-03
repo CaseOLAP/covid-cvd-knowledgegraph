@@ -58,37 +58,35 @@ class ParseWeb():
         name, and its info. about its members (name, DrugBank ID, UniProt ID) 
         '''
         if html:
-            kind = self.getKind(html)
-            if kind=='protein group':
-                main_div = html.find('body').find('main').find('div')
-                details_tb = main_div.find_all('div')[1].find('dl')
-                name = main_div.find_all('div')[0].find('h1').text
-                mlist = []
-                info_dict = {}
-                members = details_tb.find_all('dd')[3].find('table').\
-                find('tbody').find_all('tr')
-                for member in members:
-                    muid = member.find_all('td')[1].find('a').text
-                    if muid in uid_list: # if the member's UniProt ID is in the list of all UniProt IDs currently in the data
-                        if muid in list(dup_uids.keys()): # if member has duplicate UniProt ID
-                            dbid2check = dup_uids[muid]
-                            for dbid in dbid2check:
-                                if dbid in protein_dbids:
-                                    the_dbid = dbid
-                                    mdict = {}
-                                    mdict.update({'name':dbid_dict[the_dbid]['name'],\
-                                                  'drugbank_id':the_dbid,\
-                                                  'uniprot_id':muid
-                                                 })
-                                    mlist.append(mdict)
-                        else: # member has non-duplicate UniProt ID
-                            mdict = {}
-                            mdict.update({'name':uid_dict[muid]['name'],\
-                                          'drugbank_id':uid_dict[muid]['drugbank_id'],\
-                                          'uniprot_id':muid
-                                         })
-                            mlist.append(mdict)
-                        info_dict.update({'name':name,'drugbank_id':self.db_id,\
-                                        'members':mlist})
-                return info_dict
+            main_div = html.find('body').find('main').find('div')
+            details_tb = main_div.find_all('div')[1].find('dl')
+            name = main_div.find_all('div')[0].find('h1').text
+            mlist = []
+            info_dict = {}
+            members = details_tb.find_all('dd')[3].find('table').\
+            find('tbody').find_all('tr')
+            for member in members:
+                muid = member.find_all('td')[1].find('a').text
+                if muid in uid_list: # if the member's UniProt ID is in the list of all UniProt IDs currently in the data
+                    if muid in list(dup_uids.keys()): # if member has duplicate UniProt ID
+                        dbid2check = dup_uids[muid]
+                        for dbid in dbid2check:
+                            if dbid in protein_dbids:
+                                the_dbid = dbid
+                                mdict = {}
+                                mdict.update({'name':dbid_dict[the_dbid]['name'],\
+                                                'drugbank_id':the_dbid,\
+                                                'uniprot_id':muid
+                                                })
+                                mlist.append(mdict)
+                    else: # member has non-duplicate UniProt ID
+                        mdict = {}
+                        mdict.update({'name':uid_dict[muid]['name'],\
+                                        'drugbank_id':uid_dict[muid]['drugbank_id'],\
+                                        'uniprot_id':muid
+                                        })
+                        mlist.append(mdict)
+                    info_dict.update({'name':name,'drugbank_id':self.db_id,\
+                                    'members':mlist})
+            return info_dict
         return None
