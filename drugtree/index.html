@@ -41,7 +41,7 @@ var tree = d3.cluster()
 var stratify = d3.stratify()
     .parentId(function(d) { return d.id.substring(0, d.id.lastIndexOf(";")); });
 
-d3.csv("cvd_drug_tree.csv", function(error, data) {
+d3.csv("C14 - C14.csv", function(error, data) {
   if (error) throw error;
 
   var root = stratify(data)
