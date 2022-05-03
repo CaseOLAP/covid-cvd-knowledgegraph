@@ -39,7 +39,7 @@ var tree = d3.cluster()
     .size([height , width - 500]);
 
 var stratify = d3.stratify()
-    .parentId(function(d) { return d.id.substring(0, d.id.lastIndexOf(".")); });
+    .parentId(function(d) { return d.id.substring(0, d.id.lastIndexOf(";")); });
 
 d3.csv("cv_drug_tree.csv", function(error, data) {
   if (error) throw error;
@@ -74,7 +74,7 @@ d3.csv("cv_drug_tree.csv", function(error, data) {
       .attr("dy", 3)
       .attr("x", function(d) { return d.children ? -8 : 8; })
       .style("text-anchor", function(d) { return d.children ? "end" : "start"; })
-      .text(function(d) { return d.id.substring(d.id.lastIndexOf(".") + 1); });
+      .text(function(d) { return d.id.substring(d.id.lastIndexOf(";") + 1); });
 });
 
 </script>
