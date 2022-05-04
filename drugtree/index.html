@@ -36,7 +36,7 @@ var svg = d3.select("svg"),
     g = svg.append("g").attr("transform", "translate(40,0)");
 
 var tree = d3.cluster()
-    .size([height , width - 500]);
+    .size([height , width - 1000]);
 
 var stratify = d3.stratify()
     .parentId(function(d) { return d.id.substring(0, d.id.lastIndexOf(";")); });
